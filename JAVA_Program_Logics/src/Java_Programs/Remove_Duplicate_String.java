@@ -3,7 +3,7 @@ package Java_Programs;
 public class Remove_Duplicate_String {
 
 	public static void main(String[] args) {
-		String s1="AAB CCD EE EMKK";
+		String s1="AAB CCD";
 		String s2=s1.replaceAll("\\s", "");
 		int count=0;
 		for(int i=0;i<s2.length();i++)
